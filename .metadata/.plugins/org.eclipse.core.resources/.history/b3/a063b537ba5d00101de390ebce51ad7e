@@ -1,0 +1,5 @@
+package entitiesExceptions;
+
+public class Reservation {
+
+}

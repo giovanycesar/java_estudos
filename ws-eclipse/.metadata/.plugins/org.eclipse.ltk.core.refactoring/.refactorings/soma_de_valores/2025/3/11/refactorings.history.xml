@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;soma_de_valores&apos; to &apos;curso_programacao/src&apos;&#x0D;&#x0A;- Original project: &apos;soma_de_valores&apos;&#x0D;&#x0A;- Destination element: &apos;curso_programacao/src&apos;&#x0D;&#x0A;- Original element: &apos;soma_de_valores/src/soma_de_valores&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=curso_programacao/src" element1="/src&lt;soma_de_valores" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1741747681550" version="1.0"/>
+</session>

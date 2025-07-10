@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;funcoes_matematicas&apos; to &apos;curso_programacao/src/duracao_do_jogo&apos;&#x0D;&#x0A;- Original project: &apos;funcoes_matematicas&apos;&#x0D;&#x0A;- Destination element: &apos;curso_programacao/src/duracao_do_jogo&apos;&#x0D;&#x0A;- Original element: &apos;funcoes_matematicas/src/funcoes_matematicas&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=curso_programacao/src&lt;duracao_do_jogo" element1="/src&lt;funcoes_matematicas" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1741747561428" version="1.0"/>
+</session>

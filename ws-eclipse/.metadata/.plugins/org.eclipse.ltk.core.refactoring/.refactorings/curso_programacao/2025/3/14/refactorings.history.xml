@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;utilMembrosEstaticos.CalculatorV1&apos; to &apos;CalculatorV2&apos;&#x0D;&#x0A;- Original project: &apos;curso_programacao&apos;&#x0D;&#x0A;- Original element: &apos;utilMembrosEstaticos.CalculatorV1&apos;&#x0D;&#x0A;- Renamed element: &apos;utilMembrosEstaticos.CalculatorV2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CalculatorV1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;utilMembrosEstaticos{CalculatorV1.java[CalculatorV1" matchStrategy="1" name="CalculatorV2" qualified="false" references="true" similarDeclarations="false" stamp="1743451699964" textual="false" version="1.0"/>
+</session>
