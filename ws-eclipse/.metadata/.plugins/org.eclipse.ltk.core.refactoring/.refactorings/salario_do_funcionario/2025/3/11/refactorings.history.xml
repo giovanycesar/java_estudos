@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;salario_do_funcionario&apos; to &apos;curso_programacao/src&apos;&#x0D;&#x0A;- Original project: &apos;salario_do_funcionario&apos;&#x0D;&#x0A;- Destination element: &apos;curso_programacao/src&apos;&#x0D;&#x0A;- Original element: &apos;salario_do_funcionario/src/salario_do_funcionario&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=curso_programacao/src" element1="/src&lt;salario_do_funcionario" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1741747661847" version="1.0"/>
-</session>

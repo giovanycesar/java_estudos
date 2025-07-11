@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;areas_figuras_planas&apos;" deleteContents="false" description="Delete resource &apos;areas_figuras_planas&apos;" element1="/areas_figuras_planas" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1751743498647"/>
-</session>

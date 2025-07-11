@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move package &apos;switch_case&apos; to &apos;curso_programacao/src&apos;&#x0D;&#x0A;- Original project: &apos;switch_case&apos;&#x0D;&#x0A;- Destination element: &apos;curso_programacao/src&apos;&#x0D;&#x0A;- Original element: &apos;switch_case/src/switch_case&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=curso_programacao/src" element1="/src&lt;switch_case" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1741747696218" version="1.0"/>
-</session>
