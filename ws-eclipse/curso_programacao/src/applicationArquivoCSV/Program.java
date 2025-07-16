@@ -1,4 +1,4 @@
-package applicationFileReaderBufferedReader;
+package applicationArquivoCSV;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		String path = "C:\\Users\\gvnce\\Downloads\\in.txt";
+		String path = "C:\\Users\\gvnce\\OneDrive\\Área de Trabalho\\java_estudos\\15\\itens vendidos.csv";
 
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
@@ -21,6 +21,7 @@ public class Program {
 		} catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
 		}
+
 	}
 
 }
