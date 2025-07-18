@@ -30,9 +30,7 @@ public class Program {
 				double price = Double.parseDouble(old_item[1]);
 				int quantity = Integer.parseInt(old_item[2]);
 
-				double total_price = price * quantity;
-
-				Item new_item = new Item(name, total_price);
+				Item new_item = new Item(name, price, quantity);
 
 				list.add(new_item);
 
@@ -48,11 +46,11 @@ public class Program {
 		boolean success = new File(folderPath + "\\out").mkdir();
 		System.out.println("Directory created successfully: " + success);
 
-		String newFilePath = "C:\\Users\\gvnce\\OneDrive\\Área de Trabalho\\java_estudos\\15\\out\\summary.csv";
+		String newFilePath = folderPath + "\\out\\summary.csv";
 
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter(newFilePath))) {
 			for (Item obj : list) {
-				bw.write(obj.getName() + "," + String.format("%.2f", obj.getTotal_price()));
+				bw.write(obj.getName() + "," + String.format("%.2f", obj.total()));
 				bw.newLine();
 			}
 		} catch (IOException e) {
