@@ -4,7 +4,7 @@ public class Vehicle {
 
 	private String model;
 
-	Vehicle() {
+	public Vehicle() {
 
 	}
 

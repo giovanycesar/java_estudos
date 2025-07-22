@@ -10,7 +10,7 @@ public class CarRental {
 	private Vehicle vehicle;
 	private Invoice invoice;
 
-	CarRental() {
+	public CarRental() {
 
 	}
 
