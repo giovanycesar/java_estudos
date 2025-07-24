@@ -1,6 +1,6 @@
 package servicesCarRental;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService {
 
 	public BrazilTaxService() {
 
