@@ -1,17 +1,23 @@
-package servicesContract;
+package services;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
-import entitiesContract.Contract;
-import entitiesContract.Installment;
+import entities.Contract;
+import entities.Installment;
 
 public class ContractService {
 
 	private OnlinePaymentService paymentService;
 
-	ContractService() {
+	public ContractService() {
 
 	}
+
+	public ContractService(OnlinePaymentService paymentService) {
+		this.paymentService = paymentService;
+	}
+
+
 
 	public void processContract(Contract contract, int months) {
 
@@ -27,9 +33,9 @@ public class ContractService {
 
 			amount += paymentFee;
 
-			LocalDateTime installmentDate = contract.getDate().plusMonths(i);
+			LocalDate duoDate = contract.getDate().plusMonths(i);
 
-			contract.getInstallments().add(new Installment(installmentDate, amount));
+			contract.getInstallments().add(new Installment(duoDate, amount));
 
 		}
 

@@ -1,4 +1,4 @@
-package servicesContract;
+package services;
 
 public interface OnlinePaymentService {
 

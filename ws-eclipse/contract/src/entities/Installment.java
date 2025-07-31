@@ -1,26 +1,26 @@
-package entitiesContract;
+package entities;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 public class Installment {
 
-	private LocalDateTime duoDate;
+	private LocalDate duoDate;
 	private Double amount;
 
 	public Installment() {
 
 	}
 
-	public Installment(LocalDateTime duoDate, Double amount) {
+	public Installment(LocalDate duoDate, Double amount) {
 		this.duoDate = duoDate;
 		this.amount = amount;
 	}
 
-	public LocalDateTime getDuoDate() {
+	public LocalDate getDuoDate() {
 		return duoDate;
 	}
 
-	public void setDuoDate(LocalDateTime duoDate) {
+	public void setDuoDate(LocalDate duoDate) {
 		this.duoDate = duoDate;
 	}
 
