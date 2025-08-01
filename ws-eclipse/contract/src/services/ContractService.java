@@ -17,8 +17,6 @@ public class ContractService {
 		this.paymentService = paymentService;
 	}
 
-
-
 	public void processContract(Contract contract, int months) {
 
 		double valuePerInstallment = contract.getTotalValue() / months;
