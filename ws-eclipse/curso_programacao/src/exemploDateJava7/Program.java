@@ -21,7 +21,7 @@ public class Program {
 		Date x4 = new Date(1000L * 60L * 60L * 5L);
 
 		Date y1 = sdf1.parse("25/06/2018");
-		Date y2 = sdf2.parse("25/06/2018 15:42:07");
+		Date y2 = sdf2.parse("25/06/2018 15:43:07");
 		Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
 
 		System.out.println("x1 = " + sdf2.format(x1));
