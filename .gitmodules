@@ -1,0 +1,3 @@
+[submodule "ws-eclipse/demoDaoJdbc"]
+	path = ws-eclipse/demoDaoJdbc
+	url = https://github.com/giovanycesar/demo-dao-jdbc.git
